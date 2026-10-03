@@ -1,0 +1,13 @@
+node_modules/
+/.aws/
+/.codex/
+/.agents/
+artifacts/*.png
+artifacts/*-backup.json
+artifacts/browser-*.json
+__pycache__/
+*.pyc
+.DS_Store
+python-fieldnotes-*.json
+python-fieldnotes-recovery.txt
+python-help-context.txt

@@ -1,0 +1,47 @@
+✔ native production checker accepts all catalog reference tests/examples and six alternate algorithms (82.361481ms)
+✔ catalog has six populated skill units and a linked challenge with transfer per unit (1.462683ms)
+✔ only the two attributed adaptations claim official LeetCode sources (0.538392ms)
+✔ all expected results and examples have independent Python oracles; reference scripts agree (49.102014ms)
+✔ drafts, run snapshots, assistance and archived drafts survive storage and JSON backup (2.628985ms)
+✔ a normal exported backup restores all drafts, assistance and recorded checks (0.59962ms)
+✔ oversized full backups refuse export while drafts-only preserves current work without mutating history (46.771909ms)
+✔ extreme imported timestamps are rejected before a revisit can overflow Date (0.519833ms)
+✔ backup size is measured in file bytes so Unicode exports cannot bypass the import limit (54.387025ms)
+✔ invalid or malicious nested backups never replace previously saved work (6.582663ms)
+✔ missing result fields and excessive nesting are rejected (0.677325ms)
+✔ a pass without an explicit report never claims independence (0.269714ms)
+✔ recorded hint, explanation, solution, prerequisite and external help prevent independent status (3.227771ms)
+✔ reporting help after a run corrects that attempt, including after reload (0.470506ms)
+✔ a fresh independent revisit retains evidence and cannot downgrade the previous attempt (1.131858ms)
+✔ recommendations explain saved work, explicit confusion, and transfer after a solution (0.555453ms)
+✔ help context includes current code and honest stale feedback without a hidden reference (0.558052ms)
+✔ prepared visual states match independently observed execution of the displayed Python (30.471883ms)
+✔ the checker accepts different correct approaches and checks values rather than stdout (158.480319ms)
+✔ type distinctions reject bool-for-int and tuple-for-list (159.92052ms)
+✔ new-list and unchanged-input requirements are actually checked (156.760037ms)
+✔ off-by-one indexing and wrong append usage show the student line and error (104.625612ms)
+✔ replacement instead of accumulation fails and expected stdout stays visible (54.034838ms)
+✔ syntax errors remain distinct from incorrect results (52.900687ms)
+✔ the output cap gives an understandable error and bounded captured text (53.23855ms)
+✔ circular and unsupported answers cannot crash feedback serialization (210.958371ms)
+✔ each call receives new globals and input objects (156.263812ms)
+✔ unusual incorrect results remain valid backup data (239.278913ms)
+✔ runner allocates and terminates a separate worker for every test (1.348562ms)
+✔ runner cancellation stops the worker and the next run can pass (0.650072ms)
+✔ runner execution deadline terminates a nonresponding worker (2001.659859ms)
+✔ server import and factory construction never bind a port (2.002268ms)
+✔ GET and HEAD serve only public app assets with appropriate MIME types (24.87362ms)
+✔ only the five required runtime filenames are exposed (6.199036ms)
+✔ unrelated project files, metadata, machine paths and directory listings are refused (0.857373ms)
+✔ raw and encoded traversal, backslashes, nul bytes and symlink escapes are refused (0.871876ms)
+✔ unexpected hosts and write methods are refused (1.867992ms)
+✔ CSP permits local WebAssembly and blocks external connections on all responses (2.360703ms)
+✔ missing runtime returns an actionable 404 without disclosing machine paths (1.105513ms)
+ℹ tests 39
+ℹ suites 0
+ℹ pass 39
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 3747.844419

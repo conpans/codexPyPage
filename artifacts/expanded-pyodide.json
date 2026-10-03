@@ -1,0 +1,10 @@
+{
+  "runtime": "Pyodide WebAssembly in Node; browser behavior not covered",
+  "python": "3.14.2",
+  "exercises": 53,
+  "referenceTests": 262,
+  "referenceExamples": 79,
+  "freshStateCalls": 2,
+  "networkRequests": [],
+  "failures": []
+}

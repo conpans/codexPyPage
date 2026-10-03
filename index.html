@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#173f39">
+  <meta name="description" content="A calm, local place to practice Python, one connected idea at a time.">
+  <title>Python Fieldnotes</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23173f39'/%3E%3Ctext x='12' y='44' font-size='37' fill='%23e9c98d'%3Epy%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/src/style.css">
+  <script type="module" src="/src/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to practice</a>
+  <aside class="sidebar" aria-label="Application">
+    <a href="#home" class="brand"><span class="brand-mark" aria-hidden="true">py<span>.</span></span><span>Fieldnotes<small>PYTHON PRACTICE</small></span></a>
+    <div class="nav-label">YOUR WORKBENCH</div>
+    <nav aria-label="Main navigation">
+      <a href="#home" data-nav="home"><span aria-hidden="true">↗</span> Continue</a>
+      <a href="#skills" data-nav="skills"><span aria-hidden="true">⌘</span> Practice a skill</a>
+      <a href="#problems" data-nav="problems"><span aria-hidden="true">▤</span> Browse problems</a>
+    </nav>
+    <div class="sidebar-note"><span class="little-dot"></span> One idea at a time.<p>A companion to your course.<br>Room to try, pause, and return.</p></div>
+    <a class="backup-link" href="#backup" data-nav="backup">↥ &nbsp; Progress & backups</a>
+    <div class="local-note">Saved in this browser<br>No account needed</div>
+  </aside>
+  <div class="shell">
+    <header class="topbar"><span>Make room for a little Python.</span><span class="local-pill"><i aria-hidden="true"></i> Personal practice</span></header>
+    <div id="storage-warning" role="alert" hidden></div>
+    <main id="main" tabindex="-1"></main>
+    <footer>Progress is something you build, not a score. <a href="#backup">Back up your practice →</a></footer>
+  </div>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <dialog id="context-dialog" aria-labelledby="context-title"><div class="dialog-head"><h2 id="context-title">Take your attempt with you</h2><button data-action="close-dialog" aria-label="Close help context">✕</button></div><p>Copy this into the external tutor you already use. Nothing is sent automatically. Your code stays here when you return.</p><label for="help-message">Context for external help</label><textarea id="help-message" class="context-text" readonly></textarea><p id="copy-status" role="status">Review the message, then copy it. The worked solution is excluded.</p><div class="actions"><button class="primary" data-action="copy-context">Copy message</button><button data-action="select-context">Select all text</button><button data-action="download-context">Download text</button></div></dialog>
+  <dialog id="import-dialog" aria-labelledby="import-title"><div class="dialog-head"><h2 id="import-title">Restore this backup?</h2><button data-action="close-import" aria-label="Cancel import">✕</button></div><p id="import-summary"></p><p>This replaces the progress stored in this browser. Download your current backup first if you want to keep both.</p><div class="actions"><button data-action="export">Back up current progress</button><button class="primary" data-action="confirm-import">Restore validated backup</button></div></dialog>
+  <noscript>This practice app needs JavaScript to run Python in your browser.</noscript>
+</body>
+</html>
